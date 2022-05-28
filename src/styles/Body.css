@@ -1,0 +1,268 @@
+
+body{
+    background-image: url(../../public/image/blue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: cover;
+}
+
+/* titulo*/
+.tittle{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20%;
+}
+
+/* Barra entre titulo y container de cards*/
+
+.barra{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.search, .select_game, .select_price, .select_type, .select-filter{
+    box-sizing: border-box;
+    border: 1px #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 12px 20px 12px 40px;
+    color: #ccc;
+}
+
+.select_game{
+    background-image: url('../../public/image/espada.png');
+    background-color: #294056;
+    width: 24%;
+    margin-right: 2%;
+  }
+.search {
+    background-image: url('../../public/image/lupa1.png');
+    background-color: #294056;
+    width: 50%;
+  }
+.select_price{
+    background-image: url('../../public/image/bolsa-de-dinero.png');
+    background-color: #294056;
+    width: 12%;
+  }
+.select_type{
+    background-image: url('../../public/image/pluma.png');
+    background-color: #294056;
+    width: 12%;
+}
+
+/* Container para cards*/
+.container{
+    background-color: #294056;
+    height: auto;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    border: 4px #ccc;
+    margin-bottom: 40px;
+    
+
+}
+
+/* Select para filtrar*/
+
+.list-filter{
+    background: #294056;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #fff;
+    padding-top: 30px;
+}  
+
+.select-filter{
+  background-image: url('../../public/image/filtrar.png');
+  background-color: #324d67;
+}
+
+/* Card*/
+
+
+    .container-card{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      margin-left: 10px;
+
+      width: 100%;
+      }
+
+.card {
+    width: auto;
+    margin: auto;
+    margin-left: 5px;
+    background: #324d67;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  .on{
+    list-style: none;
+    justify-content: space-between;
+    background-color: #324d67;
+  }
+  .onsale{
+    margin-left: 10px;
+    font-size: 10px;
+  }
+.b{
+  color:#00ff80;
+  font-size: 20px;
+}
+
+  .stock {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #00ff80;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 500;
+    color: #00ff80;
+  }
+  
+  .card img{
+    width:70px;
+    height: 70px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .card h1{  
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .card input{
+      box-sizing: border-box;
+      border: 1px #ccc;
+      border-radius: 2px;
+      background-position: 5px 5px;
+      background-repeat: no-repeat;
+      background-size: 15px;
+      padding: 10px 10px 10px 10px;
+      background-color: #324d67;
+
+}
+
+  .card p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .list-price{
+    list-style: none;
+    background-color: #324d67;
+  }
+
+  .price, .price-touch {
+    color: grey;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .price-touch{
+    text-decoration: line-through #ff0000;
+    font-size: 13px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #5380ac;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: auto;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .btn {
+    background-color: #5380ac;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .btn-cancel{
+    opacity: 0.2;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
+  .list-button{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-right: 5px;
+  }
+  
+  .center {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0 4px;
+}
+
+.pagination a.next{
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    -ms-transition: background-color .3s;
+    -o-transition: background-color .3s;
+}
+
+  .pagination a.active {
+    background-color: #5380ac;
+    color: white;
+    border: 1px solid #5380ac;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  
+  
